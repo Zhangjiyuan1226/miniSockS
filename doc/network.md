@@ -2,4 +2,17 @@
 
 ### Introduction
 
-   The use of network firewalls, systems that effectively isolate an organizations internal network structure from an exterior network, such as the INTERNET is becoming increasingly popular.  **These firewall systems typically act as application-layer gateways between networks, usually offering controlled TELNET, FTP, and SMTP access.** With the emergence of more sophisticated application layer protocols designed to facilitate global information discovery, there exists a need to provide a general framework for these protocols to transparently and securely traverse a firewall.
+ 
+
+# Go语言学习
+
+## 1. 搭建一个项目
+
+```shell
+go mod init "github.com/repo_name"
+```
+
+go.mod文件可以作为项目的包管理器，例如java中的pom.xml Python中的requirement.txt，在go.mod中包含了项目所需要的依赖，当项目使用到了其他的包，go mod会将依赖关系添加到文件中
+
+## 2. 如何设定项目入口
+
